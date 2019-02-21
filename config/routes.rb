@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :wine_styles, only: [:index]
       resources :foods, only: [:index]
+      resources :matches, only: [:index]
     end
   end
 end

@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(version: 2019_02_20_211150) do
 
   create_table "wine_styles", force: :cascade do |t|
     t.string "name"
+    t.string "short_name"
     t.string "description"
     t.string "image"
     t.string "cuisine_title"
