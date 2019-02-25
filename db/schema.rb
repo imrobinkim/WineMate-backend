@@ -38,6 +38,7 @@ ActiveRecord::Schema.define(version: 2019_02_20_211150) do
     t.string "image"
     t.string "cuisine_title"
     t.string "cuisine_description"
+    t.string "slug"
     t.string "wines", default: [], array: true
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

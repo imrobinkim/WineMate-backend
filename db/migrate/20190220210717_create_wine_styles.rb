@@ -7,6 +7,7 @@ class CreateWineStyles < ActiveRecord::Migration[5.2]
       t.string :image
       t.string :cuisine_title
       t.string :cuisine_description
+      t.string :slug
       t.string :wines, array: true, default: []
 
       t.timestamps
