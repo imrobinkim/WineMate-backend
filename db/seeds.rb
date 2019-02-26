@@ -13,25 +13,101 @@
 
 ##############  WINE STYLES  ###############
 
-bold_red = WineStyle.create(name: "Full-Bodied Red Wine", short_name: "Bold Red" ,description: "Full-bodied red wines are the deepest darkest and most tannic of all the red wines. Tannin might sound weird and bitter but the tannin in wine binds to proteins in our saliva and it has a palate-cleansing effect. This is why a bold red wine pairs so wonderfully with a juicy, fatty steak like ribeye. Full-bodied red wines are also quite pleasing and stand on their own as a cocktail wine.", cuisine_title: "Rich Meats", cuisine_description: "Roasted, Smoked and Barbecued Meats", slug: "bold-red", wines: ["Malbec", "Syrah / Shiraz", "Mourvèdre", "Pinotage", "Petite Sirah", "Touriga Nacional", "Cabernet Sauvignon", "Bordeaux Blend", "Meritage"], image: "")
+bold_red = WineStyle.create(name: "Full-Bodied Red Wine", short_name: "Bold Red" ,description: "Full-bodied red wines are the deepest darkest and most tannic of all the red wines. Tannin might sound weird and bitter but the tannin in wine binds to proteins in our saliva and it has a palate-cleansing effect. This is why a bold red wine pairs so wonderfully with a juicy, fatty steak like ribeye. Full-bodied red wines are also quite pleasing and stand on their own as a cocktail wine.", cuisine_title: "Rich Meats", cuisine_description: "Roasted, Smoked and Barbecued Meats", slug: "bold-red", image: "")
 
-medium_red = WineStyle.create(name: "Medium-Bodied Red Wine", short_name: "Medium Red", description: "Medium red wines are what I like to call “food wines.” They offer up tons of flavor with a balance of zesty acidity which makes them match with a wide variety of foods (from zesty salads to rich and cheesy lasagna). These are the perfect mid-week wines for red wine lovers.", cuisine_title: "Roasted Food", cuisine_description: "Italian Cuisine, Spanish Cuisine, Pizza, Roasted Vegetables", slug: "medium-red", wines: ["Merlot", "Sangiovese", "Zinfandel", "Cabernet Franc", "Tempranillo", "Nebbiolo", "Barbera", "Côtes du Rhône Blend"], image: "")
+medium_red = WineStyle.create(name: "Medium-Bodied Red Wine", short_name: "Medium Red", description: "Medium red wines are what I like to call “food wines.” They offer up tons of flavor with a balance of zesty acidity which makes them match with a wide variety of foods (from zesty salads to rich and cheesy lasagna). These are the perfect mid-week wines for red wine lovers.", cuisine_title: "Roasted Food", cuisine_description: "Italian Cuisine, Spanish Cuisine, Pizza, Roasted Vegetables", slug: "medium-red", image: "")
 
-light_red = WineStyle.create(name: "Light-Bodied Red Wine", short_name: "Light Red", description: "Light-bodied red wines are typically pale in color (you can see through them in a glass) and have very light tannin. FYI, tannin tastes astringent in wine and dries your mouth out in the same way that putting a wet tea bag on your tongue would. For this reason, light red wines are some of the most coveted wines in the world.", cuisine_title: "Simple Dishes", cuisine_description: "Cheese, Bread, Hors d'Oeuvres, Cream Soups and Pasta, White Pizza, French Cuisine", slug: "light-white", wines: ["Pinot Noir", "Grenache", "Gamay", "St. Laurent", "Carignan", "Counoise"], image: "")
+light_red = WineStyle.create(name: "Light-Bodied Red Wine", short_name: "Light Red", description: "Light-bodied red wines are typically pale in color (you can see through them in a glass) and have very light tannin. FYI, tannin tastes astringent in wine and dries your mouth out in the same way that putting a wet tea bag on your tongue would. For this reason, light red wines are some of the most coveted wines in the world.", cuisine_title: "Simple Dishes", cuisine_description: "Cheese, Bread, Hors d'Oeuvres, Cream Soups and Pasta, White Pizza, French Cuisine", slug: "light-red", image: "")
 
-rose = WineStyle.create(name: "Rosé Wine", short_name: "Rosé", description: "Rosé is a true winemaker’s wine because it’s made by “dying” a wine for only a short time with the skins of red wine grapes. Rosé wines were first popularized in the late 1700’s when French wines imported in England were called “Claret” (sounds like “Clairette”) to describe their pale red color. Today, you can find rosé wines of all styles (sweet or dry) made from many different grapes from Cabernet Sauvignon to Zinfandel (known commonly as White Zinfandel)", cuisine_title: "Richly Flavored Foods", cuisine_description: "Mediterranean Cuisine, Moroccan, Indian Cuisine, Spiced Dishes", slug: "rosé", wines: ["Provençal Rosé", "White Zinfandel", "Loire Valley Rosé", "Pinot Noir Rosé", "Syrah Rosé", "Garnacha Rosado", "Bandol Rosé", "Tempranillo Rosé", "Saignée Method Rosé"], image: "")
+rose = WineStyle.create(name: "Rosé Wine", short_name: "Rosé", description: "Rosé is a true winemaker’s wine because it’s made by “dying” a wine for only a short time with the skins of red wine grapes. Rosé wines were first popularized in the late 1700’s when French wines imported in England were called “Claret” (sounds like “Clairette”) to describe their pale red color. Today, you can find rosé wines of all styles (sweet or dry) made from many different grapes from Cabernet Sauvignon to Zinfandel (known commonly as White Zinfandel)", cuisine_title: "Richly Flavored Foods", cuisine_description: "Mediterranean Cuisine, Moroccan, Indian Cuisine, Spiced Dishes", slug: "rosé", image: "")
 
-rich_white = WineStyle.create(name: "Full-Bodied White Wine", short_name: "Rich White", description: "Full-bodied white wines are perfect for red wine lovers because of their rich smooth taste with subtle creaminess. What makes them different than light white wines usually involves special winemaking techniques including the use of oak-aging, (just like aged whiskeys, wine becomes smoother with barrel aging too).", cuisine_title: "Creamy Dishes", cuisine_description: "Cream Soups, Cream-based Pasta, Quiche, Creamy Lasagna, Risotto, French Cuisine", slug: "rich-white", wines: ["Chardonnay", "Sémillon", "Viognier", "Marsanne", "Roussanne"], image: "")
+rich_white = WineStyle.create(name: "Full-Bodied White Wine", short_name: "Rich White", description: "Full-bodied white wines are perfect for red wine lovers because of their rich smooth taste with subtle creaminess. What makes them different than light white wines usually involves special winemaking techniques including the use of oak-aging, (just like aged whiskeys, wine becomes smoother with barrel aging too).", cuisine_title: "Creamy Dishes", cuisine_description: "Cream Soups, Cream-based Pasta, Quiche, Creamy Lasagna, Risotto, French Cuisine", slug: "rich-white", image: "")
 
-light_white = WineStyle.create(name: "Light-Bodied White Wine", short_name: "Light White", description: "These light easy-drinking dry white wines are some of the most-sold wines in the world (even if red wines get more attention). Light whites are like the “beer of wine” and, for this reason, they are perfect to drink with most foods. Some of these wines are perfect for savory lovers (like Sauv. Blanc and Grüner) with green herbal flavors of gooseberry and bell pepper.", cuisine_title: "Vegetable Dishes", cuisine_description: "Salads, Sautéed Vegetables, Roasted Vegetables", slug: "light-white", wines: ["Sauvignon Blanc", "Albariño", "Pinot Blanc", "Vermentino", "Melon de Bourgogne", "Gargenega", "Trebbiano", "Pinot Gris / Pinot Grigio"], image: "")
+light_white = WineStyle.create(name: "Light-Bodied White Wine", short_name: "Light White", description: "These light easy-drinking dry white wines are some of the most-sold wines in the world (even if red wines get more attention). Light whites are like the “beer of wine” and, for this reason, they are perfect to drink with most foods. Some of these wines are perfect for savory lovers (like Sauv. Blanc and Grüner) with green herbal flavors of gooseberry and bell pepper.", cuisine_title: "Vegetable Dishes", cuisine_description: "Salads, Sautéed Vegetables, Roasted Vegetables", slug: "light-white", image: "")
 
-sparkling = WineStyle.create(name: "Sparkling Wine", short_name: "Sparkling", description: "If you already love sparkling wine, give yourself a pat on the back for your exquisite taste. This wine first came about in France and is synonymous with the region of Champagne. Despite the lowly appeal of many grocery store options (e.g. Cook’s), sparkling wines are the most technically challenging and time intensive wines made in the world.", cuisine_title: "Salty Foods", cuisine_description: "Fries, Potato Chips, Caviar, Anchovies, Sushi, Popcorn", slug: "sparkling", wines: ["Champagne", "Prosecco", "Crémant", "Cava", "Metodo Classico", "Sparkling Wine", "Sparkling Rosé"], image: "")
+sparkling = WineStyle.create(name: "Sparkling Wine", short_name: "Sparkling", description: "If you already love sparkling wine, give yourself a pat on the back for your exquisite taste. This wine first came about in France and is synonymous with the region of Champagne. Despite the lowly appeal of many grocery store options (e.g. Cook’s), sparkling wines are the most technically challenging and time intensive wines made in the world.", cuisine_title: "Salty Foods", cuisine_description: "Fries, Potato Chips, Caviar, Anchovies, Sushi, Popcorn", slug: "sparkling", image: "")
 
-sweet_white = WineStyle.create(name: "Aromatic (sweet) White Wine", short_name: "Sweet White", description: "Aromatic grapes are some of the oldest wine varieties in the world. In fact, Cleopatra is noted for her love of Muscat of Alexandria from Greece–a lovely rich aromatic white wine. These wines have explosive, almost perfumed, aromas that spring out of the glass into your nose. They can be either dry or sweet, but most will taste a touch sweet due to all those perfume-y aromas.", cuisine_title: "Spicy Cuisine", cuisine_description: "Indian, Thai and Chinese Cuisine", slug: "sweet-white", wines: ["Moscato", "Riesling", "Chenin Blanc", "Gewürztraminer", "Late Harvest Whites", "Alsacian Pinot Gris"], image: "")
+sweet_white = WineStyle.create(name: "Aromatic (sweet) White Wine", short_name: "Sweet White", description: "Aromatic grapes are some of the oldest wine varieties in the world. In fact, Cleopatra is noted for her love of Muscat of Alexandria from Greece–a lovely rich aromatic white wine. These wines have explosive, almost perfumed, aromas that spring out of the glass into your nose. They can be either dry or sweet, but most will taste a touch sweet due to all those perfume-y aromas.", cuisine_title: "Spicy Cuisine", cuisine_description: "Indian, Thai and Chinese Cuisine", slug: "sweet-white", image: "")
 
-dessert = WineStyle.create(name: "Dessert Wine", short_name: "Dessert", description: "In the mid to late 1800’s, sweet wines were more popular than dry wines. In fact, several of the most exalted wines in the world, from Sauternes in Bordeaux to Essencia from Hungary, are practically as thick as maple syrup. Dessert wines today now range from dry to sweet and are some of the boldest, most intensely flavored (and aromatic) wines in the world.", cuisine_title: "Sweets", cuisine_description: "Cakes, Cookies, Chocolate, Pie, Ice Cream, Soft Cheese, Fruit", slug: "dessert", wines: ["Port", "Sherry", "Madeira", "Vin Santo", "Muscat", "PX (Pedro Ximénez)"], image: "")
+dessert = WineStyle.create(name: "Dessert Wine", short_name: "Dessert", description: "In the mid to late 1800’s, sweet wines were more popular than dry wines. In fact, several of the most exalted wines in the world, from Sauternes in Bordeaux to Essencia from Hungary, are practically as thick as maple syrup. Dessert wines today now range from dry to sweet and are some of the boldest, most intensely flavored (and aromatic) wines in the world.", cuisine_title: "Sweets", cuisine_description: "Cakes, Cookies, Chocolate, Pie, Ice Cream, Soft Cheese, Fruit", slug: "dessert", image: "")
 
 
+
+
+
+##############  WINES  ###############
+Wine.create(name: "Malbec", img_name: "malbec", wine_style: bold_red)
+Wine.create(name: "Syrah (Shiraz)", img_name: "syrah", wine_style: bold_red)
+Wine.create(name: "Mourvèdre", img_name: "mourvèdre", wine_style: bold_red)
+Wine.create(name: "Pinotage", img_name: "pinotage", wine_style: bold_red)
+Wine.create(name: "Petite Sirah", img_name: "petite-sirah", wine_style: bold_red)
+Wine.create(name: "Touriga Nacional", img_name: "touriga-nacional", wine_style: bold_red)
+Wine.create(name: "Cabernet Sauvignon", img_name: "cabernet-sauvignon", wine_style: bold_red)
+Wine.create(name: "Bordeaux Blend", img_name: "bordeaux-blend", wine_style: bold_red)
+Wine.create(name: "Meritage", img_name: "meritage", wine_style: bold_red)
+
+Wine.create(name: "Merlot", img_name: "merlot", wine_style: medium_red)
+Wine.create(name: "Sangiovese", img_name: "sangiovese", wine_style: medium_red)
+Wine.create(name: "Zinfandel", img_name: "zinfandel", wine_style: medium_red)
+Wine.create(name: "Cabernet Franc", img_name: "cabernet-franc", wine_style: medium_red)
+Wine.create(name: "Tempranillo", img_name: "tempranillo", wine_style: medium_red)
+Wine.create(name: "Nebbiolo", img_name: "nebbiolo", wine_style: medium_red)
+Wine.create(name: "Barbera", img_name: "barbera", wine_style: medium_red)
+Wine.create(name: "Côtes du Rhône Blend", img_name: "côtes-du-rhône-blend", wine_style: medium_red)
+
+Wine.create(name: "Pinot Noir", img_name: "pinot-noir", wine_style: light_red)
+Wine.create(name: "Grenache", img_name: "grenache", wine_style: light_red)
+Wine.create(name: "Gamay", img_name: "gamay", wine_style: light_red)
+Wine.create(name: "St. Laurent", img_name: "st-laurent", wine_style: light_red)
+Wine.create(name: "Carignan", img_name: "carignan", wine_style: light_red)
+Wine.create(name: "Counoise", img_name: "counoise", wine_style: light_red)
+
+Wine.create(name: "Provençal Rosé", img_name: "provençal-rosé", wine_style: rose)
+Wine.create(name: "White Zinfandel", img_name: "white-zinfandel", wine_style: rose)
+Wine.create(name: "Loire Valley Rosé", img_name: "loire-valley-rosé", wine_style: rose)
+Wine.create(name: "Pinot Noir Rosé", img_name: "pinot-noir-rosé", wine_style: rose)
+Wine.create(name: "Syrah Rosé", img_name: "syrah-rosé", wine_style: rose)
+Wine.create(name: "Garnacha Rosado", img_name: "garnacha-rosado", wine_style: rose)
+Wine.create(name: "Bandol Rosé", img_name: "bandol-rosé", wine_style: rose)
+Wine.create(name: "Tempranillo Rosé", img_name: "tempranillo-rosé", wine_style: rose)
+Wine.create(name: "Saignée Method Rosé", img_name: "saignée-method-rosé", wine_style: rose)
+
+Wine.create(name: "Chardonnay", img_name: "chardonnay", wine_style: rich_white)
+Wine.create(name: "Sémillon", img_name: "sémillon", wine_style: rich_white)
+Wine.create(name: "Viognier", img_name: "viognier", wine_style: rich_white)
+Wine.create(name: "Marsanne", img_name: "marsanne", wine_style: rich_white)
+Wine.create(name: "Roussanne", img_name: "roussanne", wine_style: rich_white)
+
+Wine.create(name: "Sauvignon Blanc", img_name: "sauvignon-blanc", wine_style: light_white)
+Wine.create(name: "Albariño", img_name: "albariño", wine_style: light_white)
+Wine.create(name: "Pinot Blanc", img_name: "pinot-blanc", wine_style: light_white)
+Wine.create(name: "Vermentino", img_name: "vermentino", wine_style: light_white)
+Wine.create(name: "Melon de Bourgogne", img_name: "melon-de-bourgogne", wine_style: light_white)
+Wine.create(name: "Gargenega", img_name: "gargenega", wine_style: light_white)
+Wine.create(name: "Trebbiano", img_name: "trebbiano", wine_style: light_white)
+Wine.create(name: "Pinot Gris (Pinot Grigio)", img_name: "pinot-gris", wine_style: light_white)
+
+Wine.create(name: "Champagne", img_name: "champagne", wine_style: sparkling)
+Wine.create(name: "Prosecco", img_name: "prosecco", wine_style: sparkling)
+Wine.create(name: "Crémant", img_name: "crémant", wine_style: sparkling)
+Wine.create(name: "Cava", img_name: "cava", wine_style: sparkling)
+Wine.create(name: "Metodo Classico", img_name: "metodo-classico", wine_style: sparkling)
+Wine.create(name: "Sparkling Wine", img_name: "sparkling-wine", wine_style: sparkling)
+Wine.create(name: "Sparkling Rosé", img_name: "sparkling-rosé", wine_style: sparkling)
+
+Wine.create(name: "Moscato", img_name: "moscato", wine_style: sweet_white)
+Wine.create(name: "Riesling", img_name: "riesling", wine_style: sweet_white)
+Wine.create(name: "Chenin Blanc", img_name: "chenin-blanc", wine_style: sweet_white)
+Wine.create(name: "Gewürztraminer", img_name: "gewürztraminer", wine_style: sweet_white)
+Wine.create(name: "Late Harvest Whites", img_name: "late-harvest-whites", wine_style: sweet_white)
+Wine.create(name: "Alsacian Pinot Gris", img_name: "alsacian-pinot-gris", wine_style: sweet_white)
+
+Wine.create(name: "Port", img_name: "port", wine_style: dessert)
+Wine.create(name: "Sherry", img_name: "sherry", wine_style: dessert)
+Wine.create(name: "Madeira", img_name: "madeira", wine_style: dessert)
+Wine.create(name: "Vin Santo", img_name: "vin-santo", wine_style: dessert)
+Wine.create(name: "Muscat", img_name: "muscat", wine_style: dessert)
+Wine.create(name: "PX (Pedro Ximénez)", img_name: "px", wine_style: dessert)
 
 
 
