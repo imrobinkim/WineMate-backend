@@ -4,11 +4,11 @@ class CreateWineStyles < ActiveRecord::Migration[5.2]
       t.string :name
       t.string :short_name
       t.string :description
+      t.string :short_description
       t.string :image
       t.string :cuisine_title
       t.string :cuisine_description
       t.string :slug
-      t.string :serving_temp
 
       t.timestamps
     end
