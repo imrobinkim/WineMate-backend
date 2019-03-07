@@ -39,6 +39,7 @@ ActiveRecord::Schema.define(version: 2019_02_26_192204) do
     t.string "cuisine_title"
     t.string "cuisine_description"
     t.string "slug"
+    t.string "serving_temp"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
