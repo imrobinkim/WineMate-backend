@@ -1,3 +1,6 @@
+Front End Repo: https://github.com/rykyou/WineMate-frontend
+
+
 # README
 
 This README would normally document whatever steps are necessary to get the
