@@ -1,27 +1,3 @@
+A web application that makes wine and food pairing easy, especially for those who are just starting out on their wine exploration. The backend API was developed on Ruby on Rails with a PostgreSQL database. The frontend leverages state storing capabilities of React along with an algorithm to output a wine style match based on user’s selection of food items. The UI was built by incorporating Material-UI React components and original designs created on Photoshop.
+
 Front End Repo: https://github.com/rykyou/WineMate-frontend
-
-
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
